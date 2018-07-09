@@ -1,65 +1,48 @@
-#bento
-{
-  display: block;
-  border-style: solid;
-  border-width: 5px;
-  border-color: darkgray;
+h1{
+  font-size: 3em;
+  color: white;
+  margin: 0;
+  bottom: 0;
+}
+
+#bento{
+  border: 5px solid darkgrey;
   width: 50em;
   margin: 0 auto;
   position: relative;
   text-align: center;
   line-height: 10em;
-  font: white;
-
+  }
+  .box1 {
+  background: red;
+  margin: 0;
+  height: 10em;
+  width: 25em;
+  top: 0em;
+  left: 0em;
+  }
+  .box2{
+   background: blue;
+   margin: 0;
+   height: 10em;
+   width: 25em;
+   top: 0em;
+   right: 0em;
+   position: absolute;
+  }
+.box3{
+ background: purple;
+ margin: 0;
+ height: 10em;
+ width: 25em;
+ position: static;
 }
-
-div.bento
-{
-  position: relative;
-  left: 
-}
-
-body
-
-{
-  color: white;
-}
-
-h1
-{
-  display: block;
-  font-weight: bold;
-  font-size: 3em;
-  margin: 0 auto;
-  bottom: 0 auto;
-  background-color: blue;
-}
-
-h2
-{
-  display: block;
-  font-weight: bold;
-  font-size: 3em;
-  margin: 0 auto;
-  bottom: 0 auto;
-  background-color: green;
-}
-
-h3
-{
-  display: block;
-  font-weight: bold;
-  font-size: 3em;
-  margin: 0 auto;
-  bottom: 0 auto;
-  background-color: red;
-}
-h4
-{
-  display: block;
-  font-weight: bold;
-  font-size: 3em;
-  margin: 0 auto;
-  bottom: 0 auto;
-  background-color: purple;
+.box4{
+ background: green;
+ margin: 0;
+ height: 10em;
+ width: 25em;
+ bottom: 0em;
+ right: 0em;
+ position: absolute;
 }
